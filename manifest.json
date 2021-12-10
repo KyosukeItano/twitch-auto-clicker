@@ -1,0 +1,12 @@
+{
+    "name": "Sample",
+    "description": "unko",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "matches": ["https://www.twitch.tv/*"],
+        "js": ["a.js"]
+      }
+    ]
+  }
